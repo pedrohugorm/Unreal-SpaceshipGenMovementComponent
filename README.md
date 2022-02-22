@@ -1,4 +1,4 @@
-# Unreal-SpaceshipGenMovementComponent
+# UNREAL Spaceship Movement Component
 An UNREAL Implementation of a Replicated/Predicted Spaceship Movement Component
 
 Implemented using the Plugin: [General Movement Component](https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/general-movement-component)
