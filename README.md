@@ -10,6 +10,14 @@ Video:
 * Replace the Plugin API Macro RTSFPS_API with your Games' or Plugin's.
 * Paste the files in their respective Public/Private Folders.
 * Add `"GeneralMovement"` to your `PublicDependencyModuleNames` in your `Build.cs` file
+* On the Movement Component, Section: General Movemnet Component | Networking
+  * Set Network Preset as Custom
+  * In the Section: General Movemnet Component | Networking | Replication | Autonomous Proxy
+    * Set Replicate Rotation Pitch, Replicate Rotation Roll = True
+  * In the Section: General Movemnet Component | Networking | Replication | Simulated Proxy
+    * Set Replicate Rotation Pitch, Replicate Rotation Roll = True
+  * In the Section: General Movemnet Component | Networking
+    * Set Velocity Error = 5.0
 
 ## TODOs
 * Make this a Plugin for easier integration
