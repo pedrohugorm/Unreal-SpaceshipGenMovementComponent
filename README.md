@@ -16,3 +16,4 @@ Video (old):
 
 ## Usage
 * Copy the Plugin Folder from this project into your project
+* Build your project
