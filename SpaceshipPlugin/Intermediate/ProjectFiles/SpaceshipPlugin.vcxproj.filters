@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpaceshipPlugin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceshipPlugin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceshipPluginEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpaceshipMovement">
+      <UniqueIdentifier>{49592F3A-2027-30E9-9F17-B61D0393E234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpaceshipMovement\Source">
+      <UniqueIdentifier>{547313F8-709B-380F-98FB-D150B38B093D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpaceshipMovement\Source\SpaceshipMovement">
+      <UniqueIdentifier>{F621447E-3787-3951-894D-88B998A2E392}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\SpaceshipMovement.Build.cs">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement</Filter>
+    </None>
+    <Filter Include="Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private">
+      <UniqueIdentifier>{87A4E46C-954D-3CF9-951F-3BA0666258C4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private\SpaceshipMovement.cpp">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public">
+      <UniqueIdentifier>{CA502DCC-2E59-322D-A4E4-DE8D065C6AEE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public\SpaceshipMovement.h">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\SpaceshipMovement\SpaceshipMovement.uplugin">
+      <Filter>Plugins\SpaceshipMovement</Filter>
+    </None>
+    <Filter Include="Plugins\SpaceshipMovement\Resources">
+      <UniqueIdentifier>{9EF54922-3685-3A7D-9CF6-EFFAE2E87A2C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpaceshipMovement\Resources\Icon128.png">
+      <Filter>Plugins\SpaceshipMovement\Resources</Filter>
+    </None>
+    <Filter Include="Source\SpaceshipPlugin">
+      <UniqueIdentifier>{F523E40C-A5E8-302C-B048-725B2E6EB285}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceshipPlugin\SpaceshipPlugin.Build.cs">
+      <Filter>Source\SpaceshipPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpaceshipPlugin\SpaceshipPlugin.cpp">
+      <Filter>Source\SpaceshipPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceshipPlugin\SpaceshipPlugin.h">
+      <Filter>Source\SpaceshipPlugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceshipPlugin\SpaceshipPluginGameModeBase.cpp">
+      <Filter>Source\SpaceshipPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceshipPlugin\SpaceshipPluginGameModeBase.h">
+      <Filter>Source\SpaceshipPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
