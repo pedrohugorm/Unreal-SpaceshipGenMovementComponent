@@ -23,6 +23,15 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Plugins">
       <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
     </Filter>
@@ -41,12 +50,24 @@
     <Filter Include="Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private">
       <UniqueIdentifier>{87A4E46C-954D-3CF9-951F-3BA0666258C4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private\RotationHelpers.cpp">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private\SpaceshipGenMovementComponent.cpp">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private\SpaceshipMovement.cpp">
       <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public">
       <UniqueIdentifier>{CA502DCC-2E59-322D-A4E4-DE8D065C6AEE}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public\RotationHelpers.h">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public\SpaceshipGenMovementComponent.h">
+      <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public\SpaceshipMovement.h">
       <Filter>Plugins\SpaceshipMovement\Source\SpaceshipMovement\Public</Filter>
     </ClInclude>
@@ -71,11 +92,29 @@
     <ClInclude Include="..\..\Source\SpaceshipPlugin\SpaceshipPlugin.h">
       <Filter>Source\SpaceshipPlugin</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\SpaceshipPlugin\SpaceshipPluginGameModeBase.cpp">
-      <Filter>Source\SpaceshipPlugin</Filter>
+    <Filter Include="Source\SpaceshipPlugin\Private">
+      <UniqueIdentifier>{A28FF342-6B3A-3786-A350-728E07537CCD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceshipPlugin\Private\SpaceshipGameState.cpp">
+      <Filter>Source\SpaceshipPlugin\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\SpaceshipPlugin\SpaceshipPluginGameModeBase.h">
-      <Filter>Source\SpaceshipPlugin</Filter>
+    <ClCompile Include="..\..\Source\SpaceshipPlugin\Private\SpaceshipPlayerController.cpp">
+      <Filter>Source\SpaceshipPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceshipPlugin\Private\SpaceshipPluginGameModeBase.cpp">
+      <Filter>Source\SpaceshipPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SpaceshipPlugin\Public">
+      <UniqueIdentifier>{8757A777-3EA1-3F58-8CA0-A325F30A9F08}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceshipPlugin\Public\SpaceshipGameState.h">
+      <Filter>Source\SpaceshipPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceshipPlugin\Public\SpaceshipPlayerController.h">
+      <Filter>Source\SpaceshipPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceshipPlugin\Public\SpaceshipPluginGameModeBase.h">
+      <Filter>Source\SpaceshipPlugin\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
