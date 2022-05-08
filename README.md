@@ -1,6 +1,6 @@
 # UNREAL Spaceship Movement Component
 
-![Ship_And_Hud](Documentation/images/Ship_And_Hud.png)
+![Ship_And_Hud](./Documentation/Images/Ship_And_Hud.png)
 
 An UNREAL Implementation of a Network Replicated/Predicted Spaceship Movement Component
 
